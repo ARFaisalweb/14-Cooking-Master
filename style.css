@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: rgb(22, 72, 146);
+  padding: 20px;
+}
+#header {
+  display: flex;
+  justify-content: space-between;
+}
+#header h2 {
+  color: white;
+  font-size: 32px;
+  padding: 5px;
+  margin-left: 20px;
+  text-shadow: 0 0 10px white;
+}
+#header ul {
+  list-style: none;
+  display: flex;
+}
+#header ul li {
+  color: white;
+  padding: 10px;
+  margin-right: 15px;
+  font-size: 15px;
+}
+#search-area {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+#search-meal {
+  width: 350px;
+  height: 38px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  padding-left: 20px;
+}
+#search-btn {
+  color: white;
+  width: 75px;
+  height: 38px;
+  background-color: steelblue;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+#search-btn:hover {
+  background-color: green;
+}
+#product-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+#meal-card {
+  width: 300px;
+  height: auto;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: white;
+  overflow: hidden;
+  margin: 10px;
+}
+#food-icon img {
+  width: 100%;
+  height: auto;
+}
+#food-name {
+  padding: 10px;
+}
+#product-details {
+  display: none;
+}
+#card-details {
+  margin: 30px auto;
+  width: 380px;
+  border-radius: 5px;
+  background-color: white;
+}
+#card-details img {
+  width: 100%;
+  height: 250px;
+  border-radius: 5px 5px 0 0;
+}
+#meal-info {
+  padding: 20px;
+}
+#meal-info h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+#meal-info h3 {
+  font-weight: 500;
+}
+#meal-info ul {
+  list-style: circle;
+  margin-left: 25px;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 5px;
+  color: gray;
+}
