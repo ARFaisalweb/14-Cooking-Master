@@ -2,7 +2,10 @@ const getData = (searchName) => {
   const API = `https://www.themealdb.com/api/json/v1/1/search.php?s=${searchName}`;
   fetch(API)
     .then((res) => res.json())
-    .then((data) => displayMealData(data));
+    .then((data) => displayMealData(data))
+    .catch((err) =>
+      alert("Your food isn't available. Pls, search another one...")
+    );
 };
 
 const searchFood = () => {

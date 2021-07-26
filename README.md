@@ -1,1 +1,15 @@
-# 14-Cooking-Master
+## The MealDB API Practice
+
+## Live Link: https://arfaisalweb.github.io/14-Cooking-Master/
+
+### Technologies used on this Project:
+
+- HTML5
+- CSS3
+- JavaScript
+
+### Special features in this Project:
+
+- You can search meal by name.
+- Dynamic and Interactive.
+- API Based result.
